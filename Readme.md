@@ -1,1 +1,1 @@
-A Timer App by ReactJS
+A boilerplate for React project
