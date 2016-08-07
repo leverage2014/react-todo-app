@@ -9,9 +9,9 @@ import * as actions from 'actions';
 
 export var TodoApp = React.createClass({
 	onLogout(e){
-		var {dispatch} = this.props;
+		console.log('hahaahha');
 		e.preventDefault();
-
+        var {dispatch} = this.props;
 		dispatch(actions.startLogout());
 	},
 	render(){
